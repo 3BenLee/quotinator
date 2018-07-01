@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	background-color: #d3d3d3;
+}
+
+#jumbo {
+	width: 95%;
+	height: 60%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:  #F4E8C1;
+	text-align: center;
+	color: #351F39;	
+}
+
+.display-4 {
+	font-size: 2rem;
+}
+
+.lead {
+	font-size: 1rem;
+}
+
+#quote-plate {
+	width: 95%;
+	background-color: #A0C1B8;
+	height: 30%;
+	box-shadow: 3px 3px 5px #52527a;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#quote {
+	font-size: 1.3rem;
+}
+
+#author {
+	font-size: 1.4rem;
+}
+
+hr {
+	color: #52527a;
+}
+
+.button-twitter {
+	list-style-type: none;
+	align-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+#twit {
+	margin-top: 40px;
+}
+
+@media (min-width: 440px) {
+	#twit {
+		
+	}
+}
+
+#quote-button {
+	background-color: #351F39;
+	color: #F4E8C1;
+	border-radius: 12px;
+	border: thin #52527a; 
+	box-shadow: 3px 3px 5px #52527a;
+	outline: none;
+}
+
+#quote-button:hover {
+    background-color: #726A95;
+    color: #A0C1B8;
+    box-shadow: 3px 3px 5px #F4E8C1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
