@@ -6,8 +6,8 @@ var author
 	function getNewQuote() {
 		$.ajax({
 			//You can add all this info in the url also.(same result)
-			url: 'http://api.forismatic.com/api/1.0/',
-			jsonp: 'jsonp',
+			url: ' https://cors-anywhere.herokuapp.com://api.forismatic.com/api/1.0/',
+			json: 'jsonp',
 			dataType: 'jsonp',
 			data: {
 				method: 'getQuote',
