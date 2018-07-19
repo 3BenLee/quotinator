@@ -7,12 +7,12 @@ var author
 		$.ajax({
 			//You can add all this info in the url also.(same result)
 			url: ' https://cors-anywhere.herokuapp.com/http://api.forismatic.com/api/1.0/',
-			jsonp: 'jsonp',
-			dataType: 'jsonp',
+			json: 'json',
+			dataType: 'json',
 			data: {
 				method: 'getQuote',
 				lang: 'en',
-				format: 'jsonp'				
+				format: 'json'				
 			},
 			success: function(response) {
 				quote = response.quoteText;
