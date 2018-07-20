@@ -6,7 +6,7 @@ var author
 	function getNewQuote() {
 		$.ajax({
 			//You can add all this info in the url also.(same result)
-			url: ' https://cors-anywhere.herokuapp.com/http://api.forismatic.com/api/1.0/',
+			url: 'https://talaikis.com/api/quotes/random/',
 			json: 'json',
 			dataType: 'json',
 			data: {
